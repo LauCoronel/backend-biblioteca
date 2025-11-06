@@ -9,10 +9,9 @@ const PORT = process.env.PORT || 3000;
 // ⚠️ CORS Configuration
 const corsOptions = {
   origin: [
-    'http://localhost:4200',
-    'https://frontend-biblioteca-tau.vercel.app'  
+    '*' 
   ],
-  credentials: true,
+  credentials: false,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
