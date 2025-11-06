@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 const corsOptions = {
   origin: [
     'http://localhost:4200',
-    'https://biblioteca-backend-scmy.onrender.com/'  
+    'https://frontend-biblioteca-tau.vercel.app/login'  
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
